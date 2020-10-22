@@ -7,6 +7,11 @@ table{
   background-color: white;
 }
 
+.table-box{
+  max-height: 35rem;
+  overflow-y: scroll;
+}
+
 .overlay-mf{
   position: absolute;
   top: 0%;
@@ -25,4 +30,51 @@ table{
 
 .hide{
   display: none
+}
+
+.text-violet{
+  color: rgb(230, 87, 230);
+}
+
+.color-box{
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+  transform: translateY(.5rem);
+}
+
+.red{
+  background-color: red;
+}
+
+.green{
+  background-color: green;
+}
+
+.violet{
+  background-color: violet;
+}
+
+.fa-mine {
+  font-size: 5rem;
+  color:white;
+  text-shadow: 1px 1px 1px 1px black;
+  
+}
+
+.fa-mine .fa{
+  cursor: pointer;
+}
+
+.left{
+  position: absolute;
+  top: 50%;
+  left: 1px;
+}
+
+.right{
+  position: absolute;
+  top: 50%;
+  right: 4px;
 }
