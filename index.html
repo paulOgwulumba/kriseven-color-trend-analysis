@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analysis Tool</title>
+
+  <!--css files-->
+  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/hover.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <form role="form">
+      <div class="row">
+        <div class="form-group col-3">
+          <input class="form-control move" type="number" name="number" id="number" step="1" min="0" max="9" placeholder="Enter number here">
+        </div>
+        <div class="form-group col-1">
+          <button class="btn btn-outline-light move" id="add" style="transform: translateX(-1.6rem) translateY(1rem)">Add</button>
+        </div>
+        <div class="form-group col-4">
+          <select name="action" id="action" class="form-control move">
+            <option value="append">Append</option>
+            <option value="prepend">Prepend</option>
+          </select>
+        </div>
+        <div class="form-group col-3">
+          <button class="btn btn-outline-danger move" id="generate">Generate</button>
+        </div>
+      </div>
+    </form> 
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12" style="background-color: white; margin-top: 3rem;">
+        <table class="table">
+          <thead>
+            <th>S/N</th>
+            <th>Distribution</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hello</td>
+              <td>Again</td>
+            </tr>
+            <tr>
+              <td>Hello</td>
+              <td>Again</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col-12 hide" style="background-color: white; margin-top: 3rem;">
+        <table class="table">
+          <thead>
+            <th>S/N</th>
+            <th>Number</th>
+            <th>Color</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hello</td>
+              <td>Again</td>
+              <td>Purple</td>
+            </tr>
+            <tr>
+              <td>Hello</td>
+              <td>Again</td>
+              <td>yellow</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!--Scripts-->
+  <script src="./lib/jquery/jquery.min.js"></script>
+  <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
